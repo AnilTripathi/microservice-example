@@ -1,0 +1,14 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AnilTripathi/msconfig
+          searchPaths: configFiles
+        # "native" is used when the native profile is active, for local tests with a classpath repo:
+        native:
+          searchLocations: classpath:offline-repository/
+management:
+  security:
+    enabled: false
