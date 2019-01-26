@@ -20,7 +20,7 @@
 - PostMan
 
 
-## Running Examples
+## How to setup and run
 - Download the zip or clone the Git repository.
 - Unzip the zip file (if you downloaded one)
 - Open Command Prompt and Change directory (cd) to folder containing pom.xml
