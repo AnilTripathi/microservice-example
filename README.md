@@ -31,9 +31,9 @@
 - Right Click on the file and Run as Java Application
 
 ### Running sequence
-     1. RUN eureka-server application [URL : http://localhost:8010]
-     2. RUN cloud-confir application  [URL : http://localhost:8090/api/dservice/rest/hello]
-     3. RUN db-service application
-     4. RUN gateway-server application
+     1. RUN ** eureka-server ** application [URL : http://localhost:8010]
+     2. RUN ** cloud-confir ** application  [URL : http://localhost:8090/api/dservice/rest/hello]
+     3. RUN ** db-service ** application
+     4. RUN ** gateway-server ** application
      5. To refresh the changes hit the following URL With Header "Content-Type: application/json" and blank body
          http://localhost:8090/api/dservice/actuator/refresh
