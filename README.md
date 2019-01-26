@@ -30,4 +30,6 @@
 - Choose the Spring Boot Application file (search for @SpringBootApplication)
 - Right Click on the file and Run as Java Application
 ### Running sequence
--1 sss
+     1. James Madison
+     2. James Monroe
+     3. John Quincy Adams
