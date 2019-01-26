@@ -1,27 +1,25 @@
 # Spring MicroServices
-Learn how to create awesome Microservices and RESTful web services with Spring and Spring Boot.
+ Learn how to create awesome Microservices and RESTful web services with Spring and Spring Boot.
 
 
 ### Introduction
 
-Developing RESTful web services is fun. The combination of Spring Boot, Spring Web MVC, Spring Web Services and JPA makes it even more fun. And its even more fun to create Microservices.
 
-There are two parts to this course - RESTful web services and Microservices
+### Expectations
+- You should know Java and Spring. 
+- A basic understanding of developing web applications is a bonus but NOT mandatory. 
+- A basic understanding of Spring Boot is a bonus but NOT mandatory. We have seperate section to introduce Spring Boot.
+- A basic understanding of JPA is a bonus but NOT mandatory. We have seperate section to introduce JPA.
+- You are NOT expected to have any experience with Eclipse, Maven or Tomcat.
+- We will help you install Eclipse and get up and running with Maven and Tomcat.
 
-Architectures are moving towards microservices. 
+## Required tools
+- Java 8 pre insalled
+- Maven pre insalled
+- Eclipse & Embedded Maven OR Spring STS
+- PostMan
 
-RESTful web services are the first step to developing great microservices. Spring Boot, in combination with Spring Web MVC (also called Spring REST) makes it easy to develop RESTful web services. 
-
-In the first part of the course, you will learn the basics of RESTful web services developing resources for a social media application. You will learn to implement these resources with multiple features - versioning, exception handling, documentation (Swagger), basic authentication (Spring Security), filtering and HATEOAS. You will learn the best practices in designing RESTful web services.
-
-In this part of the course, you will be using Spring (Dependency Management), Spring MVC (or Spring REST), Spring Boot, Spring Security (Authentication and Authorization), Spring Boot Actuator (Monitoring), Swagger (Documentation), Maven (dependencies management), Eclipse (IDE), Postman (REST Services Client) and Tomcat Embedded Web Server. We will help you set up each one of these.
-
-In the second part of the course, you will learn the basics of Microservices. You will understand how to implement microservices using Spring Cloud.
-
-In this part of the course, you will learn to establish communication between microservices, enable load balancing, scaling up and down of microservices. You will also learn to centralize configuration of microservices with Spring Cloud Config Server. You will implement Eureka Naming Server and Distributed tracing with Spring Cloud Sleuth and Zipkin. You will create fault toleranct microservices with Zipkin
-
-
-### You will learn
+### Running Examples
 - You will be able to develop and design RESTful web services
 - You will setup Centralized Microservice Configuration with Spring Cloud Config Server
 - You will understand how to implement Exception Handling, Validation, HATEOAS and filtering for RESTful Web Services.
@@ -35,37 +33,6 @@ In this part of the course, you will learn to establish communication between mi
 - Using Spring Cloud Bus to exchange messages about Configuration updates
 - Simplify communication with other Microservices using Feign REST Client
 
-
-### Expectations
-- You should know Java and Spring. 
-- A basic understanding of developing web applications is a bonus but NOT mandatory. 
-- A basic understanding of Spring Boot is a bonus but NOT mandatory. We have seperate section to introduce Spring Boot.
-- A basic understanding of JPA is a bonus but NOT mandatory. We have seperate section to introduce JPA.
-- You are NOT expected to have any experience with Eclipse, Maven or Tomcat.
-- We will help you install Eclipse and get up and running with Maven and Tomcat.
-
-## Installing Tools
-- Eclipse & Embedded Maven
-- PostMan
-- Git Client - https://git-scm.com/
-- Rabbit MQ - https://www.rabbitmq.com/download.html
-
-
-### Installing Eclipse & Embedded Maven
-- Installation Video : https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3
-- GIT Repository For Installation : https://github.com/in28minutes/getting-started-in-5-steps
-- PDF : https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
-
-### Installing Rabbit MQ
-
-#### Windows
-- https://www.rabbitmq.com/install-windows.html
-- https://www.rabbitmq.com/which-erlang.html
-- http://www.erlang.org/downloads
-- Video - https://www.youtube.com/watch?v=gKzKUmtOwR4
-
-#### Mac
-- https://www.rabbitmq.com/install-homebrew.html
 
 ## Running Examples
 - Download the zip or clone the Git repository.
