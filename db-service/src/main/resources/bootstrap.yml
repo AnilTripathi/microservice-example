@@ -7,3 +7,9 @@ spring:
       uri: http://localhost:8001
 server:
   port: 8002
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
